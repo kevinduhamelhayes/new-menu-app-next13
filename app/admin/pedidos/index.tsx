@@ -1,5 +1,5 @@
-import BaseLayoutPanel from "/components/layouts/panel/BaseLayoutPanel";
-import NavbarProducts from "/components/layouts/panel/NavbarProducts";
+import BaseLayoutPanel from "@/components/layouts/panel/BaseLayoutPanel";
+import NavbarProducts from "@/components/layouts/panel/NavbarProducts";
 import OrderService from "../../../services/orderService";
 
 function index({ orders }) {
