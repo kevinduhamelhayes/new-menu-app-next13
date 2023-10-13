@@ -1,3 +1,5 @@
+"use client"
+
 import {
   Modal,
   ModalContent,
@@ -9,8 +11,8 @@ import {
   CardBody
 } from "@nextui-org/react";
 import ModalCardProduct from "./ModalCardProduct"
-import { useSession } from '/context/sessionContext';
-import SetItem from "/utils/setItem"
+import { useSession } from '@/context/sessionContext';
+import SetItem from "@/utils/setItem"
 
 export default function ModalSC({ isOpen, onOpenChange, products }) {
   const { sessionData, setSessionData } = useSession();
